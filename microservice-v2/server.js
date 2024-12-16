@@ -15,7 +15,7 @@ register.registerMetric(httpRequestDuration);
 
 const heavyWork = () => {
   let arr = [];
-  for (let i = 0; i < 10000000; i++) {
+  for (let i = 0; i < 10000; i++) {
     arr.push(Math.random());
   }
   arr.sort();

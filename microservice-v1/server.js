@@ -20,7 +20,7 @@ app.get("/metrics", async (req, res) => {
 
 app.get("/", (req, res) => {
   const end = httpRequestDuration.startTimer();
-  res.send("Hello from microservice-v1!");
+  res.send("Hello from microservice-v1! ");
   end({ method: "GET", route: "/", status_code: 200 });
 });
 
